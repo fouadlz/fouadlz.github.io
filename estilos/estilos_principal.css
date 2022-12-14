@@ -18,11 +18,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
-}
-
-* {
-  box-sizing: border-box;
+  color: inherit;           /* Quitamos el subrayado de la lista*/
 }
 
 .logo{
@@ -43,7 +39,6 @@ a {
   display: block;
   position: relative;
   cursor: pointer;
-
 }
 
 .menu_titulo {
@@ -277,7 +272,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(174,174,203,1) 0%);
 
 }
 
-.complexmarquee__headline {
+.subtitulo_cuenta {
   position: absolute;
   margin-top: 320px;
   margin-left: 110px;
@@ -317,10 +312,45 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(174,174,203,1) 0%);
 
 }
 
+
 .cero{
   position:absolute;
-  width:500px;
-  margin-top: 13%;
+  width:300px;
+  margin-top: 17%;
   margin-left: 35%;
 }
 
+.foto_banner{
+  position:absolute;
+  padding-top: 5%;
+  width: 13%;
+
+}
+
+figure {
+  margin-left:80%; 
+  width: 10%;
+}
+
+
+.mag_content { 
+  font-family: 'Zen Maru Gothic', sans-serif;
+  position:absolute;
+  margin-top:14%;
+  margin-left:77%;
+  padding: 30px;
+  background: #000;
+  width:15%;
+}
+.mag_content p {
+  color: #fff;
+  line-height: 26px;
+  font-weight: 400;
+}
+.mag_content h2 {
+  color: #fff;
+  margin-top: 0;
+}
+.spacer {
+  height: 20px;
+}
